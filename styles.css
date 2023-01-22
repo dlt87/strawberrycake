@@ -3,3 +3,8 @@ body {
     background: pink;
     text-align: center;
 }
+
+iframe {
+    margin: auto;
+    display: block;
+}

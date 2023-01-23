@@ -14,6 +14,10 @@ header {
     background-color: blanchedalmond;
 }
 
+body {
+    background-image: url('images/cake_seamless.jpg');
+}
+
 footer {
     background-color: blanchedalmond;
 }

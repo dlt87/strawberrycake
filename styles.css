@@ -18,6 +18,8 @@ body {
     background-image: url('images/cake_seamless.jpg');
 }
 
-/* footer {
+footer {
+    position: fixed;
+    bottom: 0px;
     background: blanchedalmond;
-} */
+}

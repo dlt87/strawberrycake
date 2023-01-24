@@ -10,6 +10,7 @@ iframe {
     align-self: center;
     align-items: center;
     align-content: center;
+    overflow: hidden;
 }
 
 header {

@@ -68,7 +68,8 @@ object {
 
 .textleft {
     background-color: blanchedalmond;
-    float: middle;
+    margin: auto;
+    width: 50%;
     font-size: 16px;
     color: black;
     text-align: center;
@@ -82,10 +83,10 @@ section {
 
 
 .element {
-    /* float: middle; */
     display: inline-block;
-    width: auto;
+    width: 50%;
     height: auto;
     padding: 14px 16px;
     background: blanchedalmond;
+    vertical-align: top;
 }

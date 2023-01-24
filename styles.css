@@ -18,7 +18,7 @@ iframe {
 
 header {
     font-family: 'DMMono', sans-serif;
-    background-color: blanchedalmond;
+    background-color: #deb887;
 }
 
 footer {
@@ -31,6 +31,7 @@ footer {
     padding-bottom: 40px;
     padding-top: 0px;
     background: #deb887;
+    background-color: #deb887;
 }
 
 object {

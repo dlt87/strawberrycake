@@ -30,7 +30,7 @@ footer {
     height: 0px;
     padding-bottom: 40px;
     padding-top: 0px;
-    background: burlywood;
+    background: #deb887;
 }
 
 object {
@@ -39,7 +39,7 @@ object {
 
 .navbar {
     overflow: hidden;
-    background-color: burlywood;
+    background-color: #deb887;
     font-family: 'DMMono', sans-serif;
 }
 

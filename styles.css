@@ -22,6 +22,7 @@ header {
 }
 
 footer {
+    background-color: rgb(71, 47, 16);
     font-family: 'DMMono', sans-serif;
     text-align: center;
     bottom: 0%;
@@ -30,8 +31,6 @@ footer {
     height: 0px;
     padding-bottom: 40px;
     padding-top: 0px;
-    background: #deb887;
-    background-color: #deb887;
 }
 
 object {

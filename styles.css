@@ -68,6 +68,18 @@ object {
     text-decoration: none;
 }
 
+.fiftymiddle {
+    background-color: blanchedalmond;
+    display: inline-block;
+    font-size: 75px;
+    width: auto;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 15%;
+    margin-bottom: auto;
+}
+
 .textleft {
     background-color: blanchedalmond;
     margin: auto;

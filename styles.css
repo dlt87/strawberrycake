@@ -22,7 +22,7 @@ header {
 }
 
 footer {
-    background-color: rgb(71, 47, 16);
+    background-color: burlywood;
     font-family: 'DMMono', sans-serif;
     text-align: center;
     bottom: 0%;
@@ -57,9 +57,11 @@ object {
     background-color: red;
 }
 
-.bigtitle {
+.fifty {
     background-color: blanchedalmond;
+    display: inline-block;
     font-size: 16px;
+    width: auto;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -69,11 +71,11 @@ object {
 .textleft {
     background-color: blanchedalmond;
     margin: auto;
-    width: 50%;
+    width: 100%;
     font-size: 16px;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
 

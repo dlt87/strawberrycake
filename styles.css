@@ -16,6 +16,7 @@ iframe {
     overflow: hidden;
 }
 
+
 header {
     font-family: 'DMMono', sans-serif;
     background-color: #deb887;
@@ -96,6 +97,10 @@ object {
   /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.fa-fa-caret-down {
+    color: black;
 }
 
 .fifty {

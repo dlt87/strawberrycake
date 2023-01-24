@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'DMMono';
+    src: url(fonts/DMMono-Medium.ttf);
+}
+
 body {
+    font-family: 'DMMono', sans-serif;
     margin: 0;
     text-align: center;
     background-image: url('images/cake_seamless.jpg');
@@ -7,20 +13,68 @@ body {
 iframe {
     margin: auto;
     text-align: center;
-    align-self: center;
-    align-items: center;
-    align-content: center;
     overflow: hidden;
 }
 
 header {
+    font-family: 'DMMono', sans-serif;
     background-color: blanchedalmond;
 }
 
 footer {
-    position: static;
-    overflow: visible;
+    font-family: 'DMMono', sans-serif;
+    text-align: center;
+    bottom: 0%;
+    position: fixed;
     width: 100%;
     height: 50px;
     background: blanchedalmond;
+}
+
+object {
+    background-color: blanchedalmond;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: blanchedalmond;
+    font-family: 'DMMono', sans-serif;
+}
+
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+.bigtitle {
+    background-color: blanchedalmond;
+    align: middle;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.textleft {
+    background-color: blanchedalmond;
+    float: middle;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    clear: both;
 }

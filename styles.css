@@ -72,7 +72,7 @@ object {
 }
   
 .navbar a:hover, .dropdown:hover, .dropbtn, .dropdown-content a:hover {
-    background-color: red;
+    background-color: rgb(240, 126, 145);
 }
   
 .dropdown-content {

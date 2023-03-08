@@ -40,6 +40,7 @@ object {
 
 .navbar {
     overflow: hidden;
+    display: block;
     background-color: #deb887;
     font-family: 'DMMono', sans-serif;
 }

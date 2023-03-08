@@ -100,7 +100,7 @@ object {
 }
 
 .fa-fa-caret-down {
-    color: black;
+    display: inline;
 }
 
 .fifty {

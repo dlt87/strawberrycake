@@ -47,6 +47,9 @@ object {
 
 
 .navbar a {
+    display: flex;
+    flex-wrap: wrap;
+    
     float: left;
     font-size: 1rem;
     color: black;

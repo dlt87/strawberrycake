@@ -16,6 +16,7 @@ iframe {
     overflow: hidden;
 }
 
+
 header {
     font-family: 'DMMono', sans-serif;
     background-color: #deb887;
@@ -39,22 +40,71 @@ object {
 
 .navbar {
     overflow: hidden;
+    display: block;
     background-color: #deb887;
     font-family: 'DMMono', sans-serif;
 }
 
 
 .navbar a {
+    display: flex;
+    flex-wrap: wrap;
+    
     float: left;
-    font-size: 16px;
+    font-size: 1rem;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background-color: red;
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+.navbar a:hover, .dropdown:hover, .dropbtn, .dropdown-content a:hover {
+    background-color: rgb(240, 126, 145);
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fa-fa-caret-down {
+    display: inline;
 }
 
 .fifty {
@@ -80,14 +130,15 @@ object {
     margin-bottom: auto;
 }
 
-.textleft {
+.texteighty {
     background-color: blanchedalmond;
     margin: auto;
-    width: 100%;
+    /* display: flex; */
+    width: 80%;
     font-size: 16px;
     color: black;
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px;
     text-decoration: none;
 }
 

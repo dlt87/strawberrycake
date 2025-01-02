@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'DMMono', sans-serif;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     margin: 0;
     text-align: center;
     background-image: url('images/Solid_white.png');
@@ -18,7 +18,7 @@ iframe {
 
 
 header {
-    font-family: 'DMMono', sans-serif;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     background-color: #deb887;
 }
 

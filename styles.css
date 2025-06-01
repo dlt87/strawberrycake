@@ -155,3 +155,38 @@ section {
     background: blanchedalmond;
     vertical-align: top;
 }
+
+/* NBA CHAT 
+*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+video {
+  width: 70%;
+  max-height: 90vh;
+  background: black;
+}
+
+.chat {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+#messageInput {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
